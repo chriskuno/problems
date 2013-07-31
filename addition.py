@@ -4,9 +4,7 @@ import sys
 
 
 def add(a, b):
-  # Computing the sum
-  mysum = int(a) + int(b)
-  print mysum
+  print int(a) + int(b)
 
 if __name__ == "__main__":
   add(sys.argv[1], sys.argv[2])
