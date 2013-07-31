@@ -5,7 +5,7 @@ import sys
 
 def add(a, b):
   # Computing the sum
-  mysum = int(a) * int(b)
+  mysum = int(a) + int(b)
   print mysum
 
 if __name__ == "__main__":
